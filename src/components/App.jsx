@@ -16,7 +16,7 @@ export const App = () => (
   stats={user.stats}
 />
 
-      <Statistics variant="one"
+      <Statistics
       stats={data}
 />
       <FriendList
