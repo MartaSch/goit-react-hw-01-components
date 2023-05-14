@@ -1,0 +1,21 @@
+@import '~normalize.css';
+.transactionHistory {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+table,
+th,
+td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+th,
+td {
+    padding: 10px;
+}
+th {
+    background-color: #d2691e;
+}
+tbody:nth-child(even) {
+    background-color: #d37e42;
+}
